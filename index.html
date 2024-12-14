@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1,h2,h5,h6{
+            font-size: 30px;
+            font-weight: bold;
+            font-family: roboto , arial;
+        }
+        h3{
+            font-family: roboto , arial;
+        }
+        #copyrightpart{
+            padding-left: 10px;
+            font-family: roboto , arial;
+        }
+        .faq{
+            padding-left: 15px;
+            font-family: roboto , arial;
+            ;
+        }
+    </style>
+</head>
+<body>
+    <div style="border: solid #835a5a75 ; border-radius: 15px;">
+        <h1>Priyanshu Gupta</h1>
+        <!-- below <span> tage is used as it is inline content element. simply means ki jab hum log naya element likhenga to vo directly continue karega iss tag ke baad -->
+        <span>Contact:</span>
+        <a href="mailto:priyanshuguptant@gmail.com">priyanshuguptant@gmail.com</a><br/>
+         
+        <!-- upper wale ke tahra ye problem ko solve karne ke liye hum nested <anchor> tag use karnge with <paragraph> tag ke sath kar sakte hai aur ye "simple bhi hai"-->
+       
+       <p id="projectdata">LinkedIn :<a href="http://www.linkedin.com/in/priyanshu-gupta/">linkedin.com/in/priyanshu-gupta</a></p>
+
+        <p>GitHub :<a href="http://www.github.com/in/priyanshu-gupta/">github.com/in/priyanshu-gupta</a></p>
+        
+    </div>
+    <br/>
+
+    <table style="border:solid #835a5a75 2px;border-radius: 15px;">
+        <tr>
+            <td><img src="simsonimage.jpg" alt="simpsonimage" width="200px" height="250px" style="border-radius: 15px;"></td>
+            <td>I'm aspriring web developer . My interest are in backend  technologies for building scalable websites and webapplication. I have some experience in the frontend technology. I like to develop projects so i have some better experience with the project development.</td>
+        </tr>
+    </table>
+    <br/>
+
+    <section style="border: solid #835a5a75; border-radius:15px;">
+        <h2 style="border-bottom: solid grey 2px">Education </h2>
+        <ul>
+            <li>Bachelor of Science in Information Technology, XYZ College of Commerce.</li>
+            <li>Higher Secondary Certificate in Science, XYZ College.</li>
+            <li>Secondary School Certificate, XYZ High School</li>
+        </ul>
+    </section>
+    <br/>
+
+    <section style="border:solid #835a5a75 2px; border-radius: 15px;">
+        <h2 style="border-bottom: solid grey 2px">Work Experience</h2>
+        <h3 >Intern Web Developer, JP Morgan </h3>
+        <p>Feb 2023 - April 2023 </p>
+        <ul>
+            <li>Developed  web applications using HTML, CSS, Javascript.</li>
+            <li>Collaborated with cross-functional teams. </li>
+            <li>Optimized code performance and improved allication efficiency</li>
+        </ul>
+        <h3>Intern Web Developer, Oracle</h3>
+        <p>May 2023 - July 2023</p>
+        <ul>
+            <li>Assisted in developing backend</li>
+            <li>Worked on the scaling application with core developer team</li>
+        </ul>
+    </section>
+    <br/>
+
+    <section style="border:solid #835a5a75 ;border-radius: 15px;">
+        <h2>Skills</h2>
+        <ul style="border-top: solid grey 2px">
+            <br/>
+            <li>Java</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>MongoDB</li>
+            <li>C++</li>
+        </ul>
+    </section>
+    <br/>
+
+    <section style="border:solid #835a5a75 2px; border-radius: 15px;">
+        <h2>Achievements</h2>
+        <ul style="border-top: solid grey 2px">
+            <br/>
+            <li>Serive Selection Board(Recommendation for officer entry in Indian Post) </li>
+            <li>Published research paper at college level (JMP college)</li>
+        </ul>
+    </section>
+    <br/>
+
+    <section style="border:solid #835a5a75 ;border-radius: 15px;">
+        <h2>Projects</h2>
+        <ul style="border-top: solid grey 2px;">
+          <br/> 
+          <li><h3>Tic-Tac-Toe CLI Game</h3></li><p>Developed command  line based tic-tac-toe game in java with same  functionalities as game logic</p>
+            <p>GitHub Link:<a href="#projectdata">example.com/tic-tac-toe</a></p>
+            
+           <li><h3>Snake-and-Ladder CLI Game</h3></li>
+           <p>Developed terminal based snake and ladder game with implementing logic of simple snake and ladder game</p>
+           <p>GitHub Link:<a href="#projectdata">example.com/sanke-and-ladder</a></p>
+           
+           <li><h3>Rock-paper-scissor CLI Game</h3></li>
+           <p>Developed Terminal based Rock-paper-scissor game with functionality of play-with-friend or play-with-computer</p>
+           <p>GitHub Link:<a href="#projectdata">example.com/rock-papper-scissor</a></p>
+           
+        </ul>
+    </section>
+    <br/>
+
+    <section style="border:solid #835a5a75 2px; border-radius: 10px;">
+        <h2 style="border-bottom:solid grey 2px; padding-bottom: 10px;">Frequently-Asked-Questions (FAQs)</h2>
+        <!-- ye <details> tag ek dropdown details ke liye accha hai  issme summary tag ko question dikhs sakhte ho aur -->
+        <details class="faq">
+            <summary>What is your Name?</summary>
+            <p>My Name is Priyanshu Gupta</p>
+        </details>
+        <br/>
+        <details class="faq">
+            <summary>What is your Hobby?</summary>
+            <p>My Hobby is Reading &  Drawing</p>
+        </details>
+        <br/>
+        <details class="faq">
+            <summary>What OS you like?</summary>
+            <p>Linux and it's distro's like mint ,lmde ,debian others</p>
+        </details>
+        <br/>
+
+    </section>
+    <br>
+
+
+
+    <footer style="border:solid #835a5a75; border-radius: 10px;">
+        <p id="copyrightpart">&copy; 2024 Priyanshu Gupta. All rights &reg;reserved.</p>
+    </footer>
+
+        
+</body>
+</html>
